@@ -36,11 +36,11 @@ function addData() {
 function removeFailedStudent() {
   //Write your code here, just console.log
 
-  arr=arr.filter(function(value){
+  var fin=arr.filter(function(value){
     if(value.marks>50)
     return value;
   })
-  console.log(arr);
+  console.log(fin);
 }
 
 function concatenateArray() {
